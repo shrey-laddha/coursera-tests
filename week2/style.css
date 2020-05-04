@@ -7,6 +7,12 @@ body {
 h1{
   text-align:center;
 }
+div.india, div.usa, div.uk{
+  margin:5px;
+  border:1px solid #000000;
+  background-color: rgba(0, 255, 0, 0.3);
+  position:relative;
+}
 h2{
   position:absolute;
   background-color: #0000ff;
