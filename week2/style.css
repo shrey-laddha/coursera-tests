@@ -33,6 +33,7 @@ h2{
   
 }
 p{
+  width : 33%
   margin-top:10px;
   text-align:centre;
   padding:10px;
@@ -40,3 +41,4 @@ p{
   margin-right: auto
   margin-left : auto  
 }
+
