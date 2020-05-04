@@ -4,8 +4,16 @@ body {
 .country{
   width=100%;
 }
-  
 h1{
   text-align:center;
 }
-
+h2{
+  position:absolute;
+  background-color: #0000ff;
+  text-align : center;
+  padding:10px;
+  margin-top:0px;
+  border-width: 1px 1px 1px 1px;
+  border-color:#000000;
+  border-style: solid;
+}
