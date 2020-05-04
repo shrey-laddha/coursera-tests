@@ -19,7 +19,7 @@ div.india, div.usa, div.uk{
   position:relative;
 }
 h2{
-    position:absolute;
+  position:absolute;
   top:0px;
   right:0px;
   background-color: #0000FF;
@@ -35,9 +35,9 @@ p{
   margin-top:10px
   text-align:centre;
   padding:10px;
-  
+  /***
   margin-right: auto
-  margin-left : auto  
+  margin-left : auto***/  
 }
 /********** Large devices only **********/
 @media (min-width: 992px) {
@@ -55,13 +55,13 @@ p{
 @media (min-width: 768px) and (max-width: 991px) {
  .col-md-6,.col-md-12{
   float:left
+  position:relative;
   height: 250px  
   }
 .col-md-6{
   width:50%  
   }
 .col-md-12{
-  position:relative;
   width:100%  
   }
   
