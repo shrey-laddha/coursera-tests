@@ -42,7 +42,7 @@ p{
   margin-left : auto  
 }
 /********** Large devices only **********/
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .col-lg-4{
   float:left
   height: 250px
@@ -53,8 +53,8 @@ p{
 
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
- .col-md-6,.col-sm-12{
+@media (min-width: 768px) and (max-width: 991px) {
+ .col-md-6,.col-md-12{
   float:left
   height: 250px  
   }
@@ -62,14 +62,14 @@ p{
   
   width:50%  
   }
-.col-sm-12{
+.col-md-12{
   width:100%  
   }
   
 }
 
 /********** Small devices only **********/
-@media (max-width: 991) {
+@media (max-width: 768) {
   .col-sm-12{
   float:left
   height: 250px
