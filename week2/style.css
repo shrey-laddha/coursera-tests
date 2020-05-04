@@ -30,3 +30,8 @@ h2{
   border-color:#000000;
   border-style: solid;
 }
+p{
+  margin-top:10px;
+  text-align:centre;
+  padding:10px;
+}
