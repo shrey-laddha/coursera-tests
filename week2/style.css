@@ -30,9 +30,13 @@ h2{
   border-width: 1px 1px 1px 1px;
   border-color:#000000;
   border-style: solid;
+  
 }
 p{
   margin-top:10px;
   text-align:centre;
   padding:10px;
+  display: block;
+  margin-right: auto
+  margin-left : auto  
 }
