@@ -43,6 +43,7 @@ p{
 @media (min-width: 992px) {
   .col-lg-4{
   float:left
+  position:relative;  
   height: 250px
   width:33%  
   }
@@ -54,13 +55,15 @@ p{
 @media (min-width: 768px) and (max-width: 991px) {
  .col-md-6,.col-md-12{
   float:left
+  position:relative;  
   height: 250px  
   }
 .col-md-6{
-  
+  position:relative;
   width:50%  
   }
 .col-md-12{
+  position:relative;
   width:100%  
   }
   
@@ -70,6 +73,7 @@ p{
 @media (max-width: 767) {
   .col-sm-12{
   float:left
+  position:relative;  
   height: 250px
   width:100%  
   }
