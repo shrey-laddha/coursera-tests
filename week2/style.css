@@ -1,29 +1,30 @@
-
 * {
-  box-sizing: border-box;
+  box-sizing : border-box;
 }
-
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", serif;
 } 
 div.country{
-  width=100%;
+  width:100% ;
 }
+  
 h1{
   text-align:center;
 }
-div.india, div.usa, div.uk{
-  margin:10px;
-  border:2px solid #000000;
-  background-color: rgba(0, 255, 0, 0.3);
+div.india, div.usa,div.uk{
+  background-color: #00FFFF;
+  border:1px solid #000000;
   position:relative;
-}
+  margin-left:1%;
+  margin-right: 1%;
+  margin-bottom:2%;
+}	
 h2{
   position:absolute;
   top:0px;
   right:0px;
-  background-color: #0000FF;
-  width:200px;
+  background-color: #FF3300;
+  width:180px;
   text-align : center;
   padding:10px;
   margin-top:0px;
@@ -32,48 +33,40 @@ h2{
   border-style: solid;
 }
 p{
-  margin-top:10px
-  text-align:centre;
+  margin-top:50px;
+  text-align:left;
   padding:10px;
-  /***
-  margin-right: auto
-  margin-left : auto***/  
 }
-/********** Large devices only **********/
-@media (min-width: 992px) {
+@media (min-width:768px) and (max-width:991px){
+  .col-md-6,.col-md-12
+  {
+    float:left;
+    height: 250px;
+  }
+  .col-md-6{
+    width:48%;
+  }
+  .col-md-12{
+    width:98%;
+  }
+}
+@media (min-width:992px){
+  .col-lg-4
+  {
+    float:left;
+    height: 250px;
+  }
   .col-lg-4{
-  float:left
-  position:relative;  
-  height: 250px
-  width:33%  
+    width:31.33%;
   }
-
 }
-
-
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
- .col-md-6,.col-md-12{
-  float:left
-  position:relative;
-  height: 250px  
+@media (max-width:767px){
+  .col-sm-12
+  {
+    float:left;
+    height: 250px;
   }
-.col-md-6{
-  width:50%  
-  }
-.col-md-12{
-  width:100%  
-  }
-  
-}
-
-/********** Small devices only **********/
-@media (max-width: 767) {
   .col-sm-12{
-  float:left
-  position:relative;  
-  height: 250px
-  width:100%  
+    width:98%;
   }
 }
-
