@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: red;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -14,8 +14,8 @@ body {
 
 #logo-img {
   background: url('$hrey.jpg') no-repeat;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   margin: 10px 15px 10px 0;
 }
 
