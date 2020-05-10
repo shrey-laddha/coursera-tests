@@ -10,7 +10,7 @@ body {
   background-color: yellow;
   border-radius: 2;
   border: 0;
-  height: 140px
+  height: 140px;
 }
 
 .navbar-brand {
@@ -34,12 +34,12 @@ body {
 
 #mborder{
   border: 2px black;
-  border radius: 2px
+  border radius: 2px;
 }  
-button span div {
+button div {
   width: 35px;
   height: 5px;
-  background-color: black;
+  background-color: #000000;
   margin: 2px 0px 2px;
 }  
 div button {
