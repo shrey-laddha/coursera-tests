@@ -36,20 +36,16 @@ body {
   border: 2px black;
   border radius: 2px
 }  
-button div {
+button span div {
   width: 35px;
   height: 5px;
   background-color: black;
-  margin: 2px 0 2px;
+  margin: 2px 0px 2px;
 }  
 div button {
   float: right;
 }   
   
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
