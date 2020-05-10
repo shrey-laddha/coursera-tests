@@ -48,12 +48,12 @@ height:120px;
   clear: both;
   margin-top: -30px;
 }
-button div {
-  width: 30px;
+button span div {
+  width: 35px;
   height: 5px;
-  background-color: #000000;
-  margin: 3px 0px 4px;
-}
+  background-color: black;
+  margin: 0.5px 0.5px 0.5.px 0.5px;
+}  
 div button {
   float: right;
 }   
