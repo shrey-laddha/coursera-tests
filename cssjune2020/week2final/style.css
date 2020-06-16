@@ -1,11 +1,11 @@
 body{
-  background-color:#ffffff; 
+  background-color:#ffff00; 
   padding:10px;
 }
 
 header{
   background-image:url("https://farm4.staticflickr.com/3948/15409853738_7dbfbfbac7_k.jpg");
-  background-color:#fca903;
+  background-color:#e303fc;
   background-position: center;
   height:180px;
   background-repeat: no-repeat;
@@ -41,11 +41,11 @@ nav a{
 }
 
 header nav a:hover,header nav a:active{
-  background-color:#FFFF00;
+  background-color:#fc0303;
 }
 
 .left{
-  background-image:linear-gradient(#f5fc12,#0da33f);
+  background-image:#2de0ed;
   float:left;
   width:300px;
   margin:0px 0px 20px 20px;
