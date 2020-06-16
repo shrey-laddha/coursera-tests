@@ -45,7 +45,7 @@ header nav a:hover,header nav a:active{
 }
 
 .left{
-  background-image:#2de0ed;
+  background-image:#1b9da8;
   float:left;
   width:300px;
   margin:0px 0px 20px 20px;
@@ -69,9 +69,9 @@ aside img{
 
 h2{
   text-transform:uppercase;
-  color:#2600ff;
+  color:#ff0000;
 }
 
 .active{
-  background-color:#FFFF00;
+  background-color:#ffff24;
 }
