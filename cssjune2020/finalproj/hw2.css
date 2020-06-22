@@ -1,0 +1,160 @@
+body{
+	margin:1%;
+	background-image: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header{
+	background-color: transparent; 
+	text-align: center;
+	font-size: 120%;
+	font-family: "Times New Roman";
+	color: #ffffff;
+	font-variant: small-caps;
+	padding: 2%;
+}
+
+
+nav{
+	text-align: center;
+	font-variant: normal;
+	font-family: "Times New Roman";
+	font-size: 140%;
+
+}
+nav a{
+	text-decoration: none;
+	margin: 5%;
+	background: #9f989879;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	color: #000000;
+}
+a:hover, nav a.active{
+	background: #ffffff;
+}
+
+main {
+	background: ivory;
+}
+
+aside{
+	padding-top: 2%;
+	box-sizing: content-box;
+	width: 18%;
+	display: inline-block;
+	float: center;
+	line-height: normal;
+	z-index: auto;
+	background: darkolivegreen;
+}
+
+aside img{
+	border-style: solid;
+	border-color: #000000;
+	width: 80%;
+	align-content: center;
+	margin-bottom: 15%;
+	margin-left: 10%;
+}
+
+h2{
+	font-variant: small-caps;
+	font-size: 240%;
+	color: #060a6e;
+}	
+
+p{
+	font-size: 120%;
+	}
+
+section {
+  padding: 5px;
+	display: inline-block;
+	width: 80%;
+	background: ivory;
+}
+
+.left ,.right {
+	display: inline-block;
+	align-content: center;
+	float: left;
+}
+
+table {
+  font-family: Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding:10px;
+  border-radius:2px 2px 2px 2px;
+
+}
+
+table tr:hover{
+	opacity: 0.6;
+}
+
+table td, table th{
+  border: 2px solid #ffffff;
+  padding: 8px;
+  text-align: left;
+  opacity: 0.7;
+
+}
+
+table th{
+  padding:10px;
+  text-align:center;
+  background-image:linear-gradient(#00ab2e,#f73802) !important;
+  color:#ffffff;
+  border-bottom:4px;
+  border-color:#ffffff;
+  border-style:solid;
+}
+
+table.cal{
+	color:#06425C;
+	border-right: 0;
+	border: 3px solid black;
+	border-radius: 0 0 25px 25 px;
+}
+
+tr:nth-child(odd){
+	text-orientation: upright;
+	background: #8573ff;
+}
+
+tr:nth-child(even){
+	background: #ffff03;
+	text-orientation: upright;
+}
+
+tr:last-child{
+	border-radius: 0 0 25px 25px;
+}
+
+tr:first-child>th:first-child{
+	border-radius: 25px 0 0 0;
+}
+
+tr:first-child>th:last-child{
+	border-radius: 0 25px 0 0;
+}
+
+tr:last-child>td:last-child{
+	border-radius: 0 0 25px 0;
+}
+
+tr:last-child>td:first-child{
+	border-radius: 0 0 0 25px;
+}
+.cal th, .cal td{
+	margin: 2px;
+	padding-bottom: 2px;
+}
+td:last-child, td:middle-child{
+	text-align: center;
+}
